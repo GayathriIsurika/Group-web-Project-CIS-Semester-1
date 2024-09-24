@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/Footer';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import ImageDetail from './components/ImageDetail';
+import Aboutus from './components/Aboutus';
 
 
 
@@ -23,7 +24,7 @@ const App = () => {
     { url: '/images/ruwanwalisaaya.jpg', alt: 'Ruwanwelisaya', caption: "Ruwanwelisaya situated in Anuradhapura is one of the most revered and famous stupas in Sri Lanka which was constructed by King Dutugemunu in 140 B. C this structure is 338 ft high symbolizing the primordial culture and religion of the country. This makes the stupa to be very special for Buddhists since it’s believed to house some relics of the Buddha. With amazing elephant carving and location at a breathtaking place its one of the major places that tourists who visit sri Lankan ancient architecture." },
     { url: '/images/pasikuda.jpg', alt: 'Pasikuda Beach', caption: "Pasikuda Beach is a peaceful spot on Sri Lanka's eastern coast, known for its clean white sands and bright turquoise waters. The calm waves make it perfect for swimming, snorkeling, and kite surfing. Visitors can go boating and fishing, eat fresh seafood at coastal cafes, and visit surrounding cultural attractions. Pasikuda Beach, with its peaceful environment and numerous activities, offers the ideal combination of leisure and exploration.Additionally, Pasikuda Beach is known for its stunning sunrise views and vibrant marine life, which enhance its appeal as a must-visit destination.Pasikuda Beach provides a perfect blend of relaxation and exploration." },
     { url: '/images/yapahuwa.jpg', alt: 'Yapahuwa', caption: "Yapahuwa is a 13th-century rock fortress in Sri Lanka, built by King Bhuvanekabahu I to protect the sacred Tooth Relic of the Buddha. The site, located on a 100-meter-high rock, served briefly as the capital and features a beautifully carved stone staircase, a moat, and remnants of palace buildings. The Tooth Relic was later taken by South Indian invaders, leading to the abandonment of Yapahuwa. Today, it is a significant archaeological site, attracting tourists with its rich history, intricate carvings, and panoramic views of the surrounding landscape." },
-    { url: '/images/11.jpg', alt: 'Image 5', caption: 'Beautiful Scenery 9' },
+    { url: '/images/lipton.jpg', alt: 'Lipton', caption: "Lipton's Seat is a renowned viewpoint located in the highlands of Sri Lanka, near the town of Haputale. Named after Sir Thomas Lipton, the Scottish tea planter, this spot offers breathtaking panoramic views of lush green tea plantations and the surrounding hills. It is said that Sir Lipton himself used to sit here and admire his expansive tea estates.Visitors can enjoy a scenic walk through the Dambatenne Tea Estate to reach the viewpoint, making it a popular destination for nature lovers and those interested in the history of Sri Lankas tea industry. The best time to visit is early in the morning to catch the sunrise and avoid the mist that often rolls in later in the day." },
     // Add more images as needed
   ]);
 
@@ -37,6 +38,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home images={images} />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/Aboutus" element={<Aboutus />} />
           <Route path="/image/:id" element={<ImageDetail images={images} />} /> {/* Pass images prop */}
 
         </Routes>

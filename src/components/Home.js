@@ -9,11 +9,8 @@ import { Link } from 'react-router-dom';
 const Home = ({images}) => {
   return (
     <div>
-      <br></br>
-      <div className="welcomeheading">
-      <h1 className='welcomeheader'> SpotOn: Your Travel Picks</h1><br></br><br></br>
-      <h3>"Discover Hidden Gems with Spoton"</h3>
-      </div>
+      
+      
 
       <br></br><br></br>
       <Carousel className="caro" fade interval={2000}>
