@@ -5,7 +5,7 @@ const Footer = () => {
     <>
     <hr></hr>
     <p align="center">
-    &copy; SpotOn: Your Travel Picks
+    &copy; 2024 SpotOn: Your Travel Picks
     </p>
     <p align="center">22CIS0312 - Thilini
  | 22CIS0243 - Malith

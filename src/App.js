@@ -31,8 +31,9 @@ const App = () => {
     <>
     
     <Router>
+    <Navbar />
       <div className="App">
-        <Navbar />
+        
         <Routes>
           <Route path="/" element={<Home images={images} />} />
           <Route path="/contact" element={<Contact />} />
